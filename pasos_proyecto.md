@@ -55,9 +55,19 @@ El entorno virtual (VENV) nos permite trabajar con diferentes recursos que neces
 
 Si no trabajamos en un entorno virtual todo el trabajo queda asentado de manera local y es más engorroso de limpiar en caso de que se lo desee.
 
-```bash
-python -m venv virt_env
-```
+1. Crear entorno virtual:
+
+    ```bash
+    python -m venv virt_env
+    ```
+
+2. Activar/Desactivar entorno virtual en bash:
+
+    ```bash
+    source virt_env/Scripst/activate
+    
+    deactivate
+    ```
 
 ---------
 
