@@ -161,3 +161,34 @@ Crea una migración de los modelos dentro de la aplicación.
 Aplica las migraciones pendientes para todo el proyecto.
 
 - models.Charfield(max_lenght=50)
+
+---------
+
+## **Notas clase 26/9**
+
+El profe nos va a pasar un video de VENV (Virtual Enviroments)
+
+Etiquetas ``<a></a>`` en HTML contienen botones: Ancla/Anchor
+
+## Start Boostrap
+
+1) Descarga de templates
+2) Agregar una carpeta "static/" dentro de la aplicacion del proyecto y descomprimo los archivos
+   1) De acá solo vamos a necesitar el archivo "index.html" - Lo movemos a la carpeta "templates"
+3) Agregar rutas de archivos ``style.css`` y ``scripts.js``
+
+    ```html
+    <a href={% static "css/style" %}>
+    ```
+
+- Navegación
+
+Navegación entre templates
+
+Modificado el atributo ``href=`` en la etiqueta ``<a>``:
+
+```html
+<a class="navbar-brand" href="/">Start Bootstrap</a>
+```
+
+Con ``href="/"`` vamos a la raíz/home
